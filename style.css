@@ -1,13 +1,11 @@
-.box {
-    width: 200px;
-    height: 200px;
-    background-color: rosybrown;
+[type] {
+    background-color: skyblue;
 }
 
-.box::before {
-    content: "Before "
+[type="password"] {
+    background-color: slateblue;
 }
 
-.box::after {
-    content: " After"
+[data-fruitname] {
+    color: springgreen;
 }
