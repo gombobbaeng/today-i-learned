@@ -1,5 +1,18 @@
-@import url("./box.css");
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rosybrown;
+    transition: 1s;
+}
 
-div {
-    background-color: bisque;
+.box:active {
+    width: 300px;
+}
+
+input {
+    color: white;
+}
+
+input:focus {
+    background-color: cadetblue;
 }
