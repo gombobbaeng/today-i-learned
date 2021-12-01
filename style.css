@@ -1,11 +1,11 @@
-[type] {
-    background-color: skyblue;
+.parent {
+    width: 300px;
+    height: 200px;
+    background-color: firebrick;
 }
 
-[type="password"] {
-    background-color: slateblue;
-}
-
-[data-fruitname] {
-    color: springgreen;
+.child {
+    width: 100px;
+    height: inherit;
+    background-color: darkgoldenrod;
 }
