@@ -1,18 +1,13 @@
 .box {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: rosybrown;
-    transition: 1s;
 }
 
-.box:active {
-    width: 300px;
+.box::before {
+    content: "Before "
 }
 
-input {
-    color: white;
-}
-
-input:focus {
-    background-color: cadetblue;
+.box::after {
+    content: " After"
 }
